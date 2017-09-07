@@ -57,5 +57,7 @@ input[type=text], input[type=tel], input[type=email] {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	font-size: 30px;
 	
+
 }

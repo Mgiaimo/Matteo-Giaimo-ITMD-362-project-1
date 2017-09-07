@@ -1,0 +1,12 @@
+/*CLEARFLOATS OF CHILDREN*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+/*CLEARFLOATS OF CHILDREN*/

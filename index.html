@@ -16,19 +16,19 @@
 		<form>
 		  <fieldset>
 			  <legend><strong>Shipping Information</strong></legend>
-			  <p><label for="firstName">First Name <input type="text" id="firstName" onchange="bigtext();"></label></p>
-			  <p><label>Last Name <input type="text" id="lastName" onchange="bigtext();"></label></p>
-			  <p><label>Phone Number <input type="tel" name="phone_field" placeholder="312-567-3000"></label></p>	
-			  <p><label>Email Address <input type="email" name="email_field" placeholder="youremail@gmail.com"></label></p>
+			  <p><label for="firstName">First Name <input type="text" id="firstName" onfocus="highlight(this)" onchange="bigtext();"></label></p>
+			  <p><label>Last Name <input type="text" id="lastName" onfocus="highlight(this)"  onchange="bigtext();"></label></p>
+			  <p><label>Phone Number <input type="tel" name="phone_field" placeholder="312-567-3000" onfocus="highlight(this)" ></label></p>	
+			  <p><label>Email Address <input type="email" name="email_field" placeholder="youremail@gmail.com" onfocus="highlight(this)" ></label></p>
 			  </p>
-			  <p><label>Adress line 1 <input type="text" name="address_field"></label></p>
-		  	<p><label>City <input type="text" name="city_field"></label></p>
-		  	<p><label>State/Province/Region <input type="text" name="state_field"></label></p>
-		  	<p><label>Zip Code <input type="text" name="zip_field"></label></p>
-		  	<p><label>Country <input type="text" name="country_field"></label></p>
+			  <p><label>Adress line 1 <input type="text" name="address_field" onfocus="highlight(this)" ></label></p>
+		  	<p><label>City <input type="text" name="city_field" onfocus="highlight(this)" ></label></p>
+		  	<p><label>State/Province/Region <input type="text" name="state_field" onfocus="highlight(this)" ></label></p>
+		  	<p><label>Zip Code <input type="text" name="zip_field" onfocus="highlight(this)" ></label></p>
+		  	<p><label>Country <input type="text" name="country_field" onfocus="highlight(this)" ></label></p>
 		  </fieldset>
 		  <p class="button">
-			 <input type="submit" value="Submit" onclick="return button();">
+			 <input type="submit" value="Submit" onmouseover="style.color='blue'" onmouseout="style.color='black'" onclick="return button();">
 		 	</p>
 	  </form>
   </div>

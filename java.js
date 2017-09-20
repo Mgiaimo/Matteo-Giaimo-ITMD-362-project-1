@@ -14,17 +14,7 @@ function bigtext()
 
 }
 
-function mOver(obj)
-{
-	obj.innerHTML = "Click"
+function highlight(textB) {
+    textB.style.background = "yellow";
 }
-
-function mOut(obj)
-{
-	obj.innerHTML = "Submit"
-}
-
-
-
-
 

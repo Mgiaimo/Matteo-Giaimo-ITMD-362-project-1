@@ -18,3 +18,10 @@ function highlight(textB) {
     textB.style.background = "yellow";
 }
 
+function dragon() 
+{
+    document.getElementById('myimage').src = "images-for-project/gotB1.jpg";
+}
+function nightking() {
+    document.getElementById('myimage').src = "images-for-project/nightP.jpg";
+}

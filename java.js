@@ -8,6 +8,12 @@ function bigtext()
 {
 	var fnam= document.getElementById("firstName");
 	fnam.value = fnam.value.toUpperCase();
+
+	var lnam= document.getElementById("lastName");
+	lnam.value = lnam.value.toUpperCase();
+
+
+
 }
 
 

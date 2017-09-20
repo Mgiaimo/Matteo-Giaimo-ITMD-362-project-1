@@ -12,9 +12,18 @@ function bigtext()
 	var lnam= document.getElementById("lastName");
 	lnam.value = lnam.value.toUpperCase();
 
-
-
 }
+
+function mOver(obj)
+{
+	obj.innerHTML = "Click"
+}
+
+function mOut(obj)
+{
+	obj.innerHTML = "Submit"
+}
+
 
 
 

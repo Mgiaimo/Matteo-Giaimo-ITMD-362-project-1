@@ -1,6 +1,6 @@
 function button()
 {
-   alert("Submit button clicked!");
+   alert("I wish you good fortune in the wars to come!");
    return true;
 }
 

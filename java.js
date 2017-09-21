@@ -12,6 +12,20 @@ function bigtext()
 	var lnam= document.getElementById("lastName");
 	lnam.value = lnam.value.toUpperCase();
 
+	var adr= document.getElementById("adress");
+	adr.value = adr.value.toUpperCase();
+
+	var cit= document.getElementById("city");
+	cit.value = cit.value.toUpperCase();
+
+	var sta= document.getElementById("state");
+	sta.value = sta.value.toUpperCase();
+
+	var count= document.getElementById("country");
+	count.value = count.value.toUpperCase();
+
+
+
 }
 
 function highlight(textB) {

@@ -44,7 +44,7 @@ input[type=text], input[type=tel], input[type=email] {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 3em;
+	font-size: 2em;
 
 
 }
@@ -54,24 +54,24 @@ input[type=text], input[type=tel], input[type=email] {
 @media screen and (min-width: 400px) {
 
 body {
-	background-color: orange;
+	background-color: gray;
 }
 
 
 .title {
-	font-size: 6em;
-}
-
-.sub-title {
 	font-size: 4em;
 }
 
+.sub-title {
+	font-size: 2em;
+}
+
 legend {
-	font-size: 60px;
+	font-size: 30px;
 }
 
 label {
-	font-size: 50px;
+	font-size: 20px;
 }
 
 }

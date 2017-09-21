@@ -1,6 +1,6 @@
 function button()
 {
-   alert("I wish you good fortune in the wars to come!");
+   alert("I WISH YOU GOOD FORTUNE IN THE WARS TO COME!");
    return true;
 }
 

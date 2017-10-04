@@ -41,12 +41,11 @@ input[type=text], input[type=tel], input[type=email] {
 }
 
 .button {
+	
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 2em;
-
-
 }
 
 

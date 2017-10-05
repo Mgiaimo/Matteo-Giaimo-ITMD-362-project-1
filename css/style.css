@@ -15,8 +15,8 @@
 .container {
 	max-width: 960px;
 	margin: 0 auto;
-	font-family: 'Acme', sans-serif;
-
+	/*font stacks */
+	font-family: 'Acme', "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 img {
@@ -45,7 +45,7 @@ input[type=text], input[type=tel], input[type=email] {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 2em;
+	font-size: 2.074em; /*(33.178px/16px=2.074em) */
 }
 
 
@@ -58,19 +58,20 @@ body {
 
 
 .title {
-	font-size: 4em;
+	font-size: 3.583em; /*(57.331px/16px=3.583em) */
 }
 
 .sub-title {
-	font-size: 2em;
+	font-size: 2.488em; /*(39.813px/16px=2.488em) */
 }
 
 legend {
-	font-size: 35px;
+	font-size: 2.074em; /*(33.178px/16px=2.074em) */
 }
 
+
 label {
-	font-size: 30px;
+	font-size: 1.728em; /*(27.648px/16px=1.728em) */
 }
 
 }

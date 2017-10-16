@@ -59,9 +59,28 @@ legend {
 	font-size: 2.074em; /*(33.178px/16px=2.074em) Minor 3rd */
 }
 
-
 label {
 	font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
 }
 
 }
+
+@media screen and (min-width: 960px){
+	
+	.title {
+	font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+	}
+
+.sub-title {
+	font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */
+	}
+
+legend {
+	font-size: 2.074em; /*(33.178px/16px=2.074em) Minor 3rd */
+	}
+
+label {
+	font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+	}
+}
+

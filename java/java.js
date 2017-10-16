@@ -1,6 +1,6 @@
 function button()
 {
-   alert("I WISH YOU GOOD FORTUNE IN THE WARS TO COME!");
+		alert("I WISH YOU GOOD FORTUNE IN THE WARS TO COME!");
    return true;
 }
 
@@ -23,9 +23,6 @@ function bigtext()
 
 	var count= document.getElementById("country");
 	count.value = count.value.toUpperCase();
-
-
-
 }
 
 function highlight(textB) {
@@ -36,6 +33,7 @@ function dragon()
 {
     document.getElementById('myimage').src = "images-for-project/gotB1.jpg";
 }
+
 function nightking() {
     document.getElementById('myimage').src = "images-for-project/nightP.jpg";
 }

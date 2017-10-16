@@ -1,15 +1,7 @@
-/*CLEARFLOATS OF CHILDREN*/
-.group:before,
-.group:after {
-	content: "";
-	display: table;
+body {
+	background-color: gray;
 }
 
-.group:after {
-	clear: both;
-}
-
-/*CLEARFLOATS OF CHILDREN*/
 .container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -43,10 +35,6 @@ input[type=text], input[type=tel], input[type=email] {
 
 @media screen and (min-width: 400px) {
 
-body {
-	background-color: gray;
-}
-
 .title {
 	font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
@@ -67,7 +55,7 @@ label {
 
 @media screen and (min-width: 960px){
 	
-	.title {
+.title {
 	font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 	}
 

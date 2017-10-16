@@ -10,8 +10,6 @@
 }
 
 /*CLEARFLOATS OF CHILDREN*/
-
-
 .container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -25,13 +23,9 @@ img {
 	margin-right: auto;
 }
 
-
-
 h1, h2,p,legend {
 	text-align: center;
 }
-
-
 
 input[type=text], input[type=tel], input[type=email] {
     width: 100%;
@@ -41,14 +35,11 @@ input[type=text], input[type=tel], input[type=email] {
 }
 
 .button {
-	
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 2.074em; /*(33.178px/16px=2.074em) */
 }
-
-
 
 @media screen and (min-width: 400px) {
 
@@ -56,22 +47,21 @@ body {
 	background-color: gray;
 }
 
-
 .title {
-	font-size: 3.583em; /*(57.331px/16px=3.583em) */
+	font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
 
 .sub-title {
-	font-size: 2.488em; /*(39.813px/16px=2.488em) */
+	font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */
 }
 
 legend {
-	font-size: 2.074em; /*(33.178px/16px=2.074em) */
+	font-size: 2.074em; /*(33.178px/16px=2.074em) Minor 3rd */
 }
 
 
 label {
-	font-size: 1.728em; /*(27.648px/16px=1.728em) */
+	font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
 }
 
 }

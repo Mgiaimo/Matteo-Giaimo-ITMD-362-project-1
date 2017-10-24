@@ -34,7 +34,6 @@ input[type=text], input[type=tel], input[type=email] {
 }
 
 @media screen and (min-width: 400px) {
-
 .title {
 	font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
@@ -49,13 +48,11 @@ legend {
 
 label {
 	font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
-}
-
+	}
 }
 
 @media screen and (min-width: 960px){
-	
-.title {
+	.title {
 	font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 	}
 
